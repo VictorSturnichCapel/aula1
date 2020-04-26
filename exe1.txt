@@ -1,0 +1,5 @@
+altura = float(input("Qual é a sua altura? "))
+
+peso = (72.2*altura) - 58
+
+print("Seu peso ideal é: ", peso, "KG")

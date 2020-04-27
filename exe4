@@ -1,0 +1,9 @@
+def reverso(n):
+   s = str(n) 
+   rev = 0
+   for x in range(len(s)):
+        rev += int(s[x]) * (10**x)
+   print(rev)    
+
+n = int (input("\nDigite um número para inverter: "))
+reverso(n)
